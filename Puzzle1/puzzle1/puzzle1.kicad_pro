@@ -458,12 +458,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/GPIOExpander1/SDA": "Default",
-      "/GPIOExpander2/SDA": "Default",
-      "/SCL": "Default",
-      "/SDA": "Default"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -594,15 +589,11 @@
   "sheets": [
     [
       "080193cf-7ece-48a1-b2ba-e72178b0e559",
-      "Hoofdblad"
+      "Root"
     ],
     [
       "53a3814b-18f1-4dc9-aa11-8003b85efbae",
       "GPIOExpander1"
-    ],
-    [
-      "2e801df7-a604-4c06-bd1f-2a35c520ace3",
-      "GPIOExpander2"
     ]
   ],
   "text_variables": {}

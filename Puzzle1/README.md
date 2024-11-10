@@ -9,6 +9,20 @@ The goal of the circuit is detect which cable is connected to which connector. T
 ## The idea:
 The cables are connected to three digital outputs. The digital outputs is enabled one by one. Each position of the nine by nine grid is connected to a digital input. if the digital input becomes high, the position is checked vs the currently active digital output.
 In total, 81 digital inputs and 3 digital outputs are required, which is more than standard microcontrollers contain. 
+## design choices
+The design choices are based on the requirements and the reusability of the PCB.
+### MoSCoW
+The MoSCoW is based on the requirements of the current design. The MoSCoW can change during the project, since current knowledge is limited.
+| Feature | MoSCoW | Description|
+|--|--|--|
+| 81 digital inputs | Mo | The PCB must house at least 81 digital inputs, each connected via wires |
+| 3 digital outputs | Mo | The PCB must house at least 3 digital outputs |
+| LED indicators	| Mo | The PCB must support at least three red and three green LEDs, each connected via wires rather than mounted directly |
+| 5V usable	| Mo | The circuitry must be usable with a 5V powersupply |
+| MCU independent | S | The control of the GPIO should be based on a standard bus like I2C, SPI or bit shifting |
+| Ethernet connection | Co | The controls of the GPIO could be controlled via NodeRED |
+| Wireless connection | Co | The GPIOs can be controlled via a wireless control, increasing the usability |
+
 ### GPIO expander
 To handle the high amount of digital inputs and outputs, a GPIO expander is selected. The flexibility of the design is important. Therefor a GPIO expander is selected that can handle both 5V and 3.3V. [PCA9555](https://mou.sr/3AClXk6) from NXP was selected as an GPIO expander. The chip handles 3.3V and 5V. The GPIO expander is controlled via I2C communication, with settable addresses via 3 pins. This means that a total of 9 chips can be combined in one I2C bus. The PCA9555 has 16 configurable GPIO's. The digital outputs can deliver 50 mA per output total, and the polarity can be inversed.
 

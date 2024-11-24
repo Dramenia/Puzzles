@@ -1595,18 +1595,6 @@
 		(uuid "1e426bb1-d6b4-4e50-be63-e773a999bbce")
 	)
 	(junction
-		(at 39.37 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2551e2e8-8f5f-42da-ad4e-1ed0bda1b0eb")
-	)
-	(junction
-		(at 40.64 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b26651d-92ac-4853-939d-def323c3afcd")
-	)
-	(junction
 		(at 180.34 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2712,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 99.06) (xy 40.64 101.6)
+			(xy 40.64 96.52) (xy 40.64 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2849,16 +2837,6 @@
 			(type default)
 		)
 		(uuid "6fe0e26c-e1e4-49ef-b900-42532b4740b1")
-	)
-	(wire
-		(pts
-			(xy 39.37 24.13) (xy 39.37 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71784071-4283-4c96-a07a-853ce453443a")
 	)
 	(wire
 		(pts
@@ -3132,16 +3110,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 24.13) (xy 39.37 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91c056b6-9460-409f-a9c3-17617c08dbdf")
-	)
-	(wire
-		(pts
 			(xy 93.98 67.31) (xy 88.9 67.31)
 		)
 		(stroke
@@ -3382,16 +3350,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 99.06) (xy 40.64 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a51d4b52-8bf7-49d9-bd74-46a83aebeb1c")
-	)
-	(wire
-		(pts
 			(xy 219.71 124.46) (xy 219.71 132.08)
 		)
 		(stroke
@@ -3512,7 +3470,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 21.59) (xy 39.37 24.13)
+			(xy 39.37 21.59) (xy 39.37 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4602,16 +4560,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 96.52) (xy 40.64 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdbc54b6-13be-4b9f-bb20-f5913c28a9cd")
-	)
-	(wire
-		(pts
 			(xy 218.44 123.19) (xy 222.25 123.19)
 		)
 		(stroke
@@ -5172,18 +5120,6 @@
 		)
 		(uuid "49bd4cdd-c554-4059-908b-6eda82710427")
 	)
-	(hierarchical_label "VCC"
-		(shape bidirectional)
-		(at 36.83 24.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "51c5e774-ff45-49ae-aaa6-4a64182de10b")
-	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 24.13 111.76 270)
@@ -5363,18 +5299,6 @@
 			(justify right)
 		)
 		(uuid "d125c161-3f20-4d9b-8b9f-3309028804e4")
-	)
-	(hierarchical_label "VCC"
-		(shape bidirectional)
-		(at 38.1 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d282abc7-27e5-4b74-88b2-64d3d87b9f75")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)

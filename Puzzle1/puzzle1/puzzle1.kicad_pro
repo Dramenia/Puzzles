@@ -592,8 +592,36 @@
       "Root"
     ],
     [
-      "53a3814b-18f1-4dc9-aa11-8003b85efbae",
-      "GPIOExpander1"
+      "3ca0981c-b830-46fc-8bb8-c849cedbf960",
+      "GPIOx44"
+    ],
+    [
+      "08e06175-b02d-49df-a933-fe1f6b88025a",
+      "GPIOExpander"
+    ],
+    [
+      "efec2693-3667-409a-b066-58703bcdd8eb",
+      "GPIOx40"
+    ],
+    [
+      "1d99a9c7-13d5-4777-8f42-6c53d62afbca",
+      "GPIOx42"
+    ],
+    [
+      "5b5bbfa2-c37f-44c2-9ce6-a787880661a4",
+      "GPIOx46"
+    ],
+    [
+      "d8a86173-fee9-41d2-a6a8-2a0a4288f141",
+      "GPIOx48"
+    ],
+    [
+      "8ecd62f3-bdd9-41b5-a41a-1938418e6ffe",
+      "GPIOx4A"
+    ],
+    [
+      "e6cd03de-53ae-492d-b9a1-208b8b298e00",
+      "Connectors"
     ]
   ],
   "text_variables": {}

@@ -1672,7 +1672,7 @@
 		)
 		(uuid "ec40e5e7-0cbf-4cc0-a6f7-093d268e2473")
 	)
-	(label "GPIO_[1..16]"
+	(label "GPIO_[1..96]"
 		(at 137.16 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1694,7 +1694,7 @@
 		)
 		(uuid "f86ba066-0a2e-4c1a-a2f4-c7971efcffb0")
 	)
-	(hierarchical_label "GPIO_[1..16]"
+	(hierarchical_label "GPIO_[1..96]"
 		(shape bidirectional)
 		(at 152.4 81.28 0)
 		(fields_autoplaced yes)

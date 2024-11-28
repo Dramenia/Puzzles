@@ -1050,6 +1050,30 @@
 		(color 0 0 0 0)
 		(uuid "e5f616b5-6534-4b71-8039-bcb0164cb52b")
 	)
+	(no_connect
+		(at 97.79 153.67)
+		(uuid "4642b817-c5bc-4667-9b32-a2c530aaf5fe")
+	)
+	(no_connect
+		(at 82.55 153.67)
+		(uuid "51e43b71-4f43-4c55-8414-19e20128e649")
+	)
+	(no_connect
+		(at 97.79 151.13)
+		(uuid "7c85ac22-93ba-44d9-a373-61980bc6fc40")
+	)
+	(no_connect
+		(at 82.55 151.13)
+		(uuid "83dbebe4-b942-4f6f-8e54-0e940dede2a9")
+	)
+	(no_connect
+		(at 97.79 148.59)
+		(uuid "f3ea757c-5dc0-4525-819d-8be96f165497")
+	)
+	(no_connect
+		(at 82.55 148.59)
+		(uuid "fdb73b84-2a7b-4315-beb9-362256cbda98")
+	)
 	(bus_entry
 		(at 105.41 35.56)
 		(size -2.54 2.54)
@@ -1067,6 +1091,15 @@
 			(type default)
 		)
 		(uuid "098a6a83-c3fa-4afc-b575-dad188cf22ab")
+	)
+	(bus_entry
+		(at 92.71 151.13)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1037d2e2-d653-4c91-90f2-7bc3f6938861")
 	)
 	(bus_entry
 		(at 49.53 63.5)
@@ -1294,6 +1327,15 @@
 		(uuid "3e404b57-a789-4424-8309-813376af8e11")
 	)
 	(bus_entry
+		(at 92.71 148.59)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e906d47-3d07-4a04-80e2-b06c6b703aa5")
+	)
+	(bus_entry
 		(at 105.41 93.98)
 		(size -2.54 2.54)
 		(stroke
@@ -1409,6 +1451,15 @@
 			(type default)
 		)
 		(uuid "6f006594-5b5e-4a14-8f21-04a7f91be94f")
+	)
+	(bus_entry
+		(at 92.71 151.13)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6faa886a-eb95-4c18-a3b7-7787e9a88125")
 	)
 	(bus_entry
 		(at 105.41 63.5)
@@ -1645,6 +1696,15 @@
 		(uuid "c799a897-2be1-4934-ac33-a47197388fb1")
 	)
 	(bus_entry
+		(at 92.71 146.05)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7e40bf-8e20-4345-b0db-fd28b7245ac1")
+	)
+	(bus_entry
 		(at 237.49 33.02)
 		(size -2.54 2.54)
 		(stroke
@@ -1679,6 +1739,15 @@
 			(type default)
 		)
 		(uuid "dad43801-190c-41be-973b-faae709be1dd")
+	)
+	(bus_entry
+		(at 92.71 146.05)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd0c3ff-fb88-423c-8473-23380f93fa51")
 	)
 	(bus_entry
 		(at 237.49 38.1)
@@ -1823,6 +1892,15 @@
 			(type default)
 		)
 		(uuid "f5393de1-a307-43d6-bab5-fd89d08c72db")
+	)
+	(bus_entry
+		(at 92.71 148.59)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86f1167-87aa-4f3a-8653-37b33f76bcbb")
 	)
 	(bus_entry
 		(at 49.53 88.9)
@@ -2092,6 +2170,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 153.67) (xy 97.79 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18632bc1-307c-4efd-a5f2-7b2404df1e6d")
+	)
+	(wire
+		(pts
 			(xy 91.44 30.48) (xy 102.87 30.48)
 		)
 		(stroke
@@ -2290,6 +2378,16 @@
 		)
 		(uuid "2e0e753f-8fee-4ae6-a720-19a6be4e5d22")
 	)
+	(wire
+		(pts
+			(xy 82.55 148.59) (xy 90.17 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fef91a9-d00e-4a05-9e4e-d818250f320d")
+	)
 	(bus
 		(pts
 			(xy 105.41 27.94) (xy 105.41 30.48)
@@ -2299,6 +2397,16 @@
 			(type default)
 		)
 		(uuid "30075d61-b1c9-4a2a-808f-207cc441bc7e")
+	)
+	(wire
+		(pts
+			(xy 82.55 151.13) (xy 90.17 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30755038-7a0e-4bac-b0f1-2900fa42b42a")
 	)
 	(bus
 		(pts
@@ -2590,6 +2698,16 @@
 		)
 		(uuid "500676cf-9dac-43a1-8c01-b5e1a6028109")
 	)
+	(wire
+		(pts
+			(xy 95.25 148.59) (xy 97.79 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5188f755-38c1-4eca-be8e-88b209458159")
+	)
 	(bus
 		(pts
 			(xy 237.49 33.02) (xy 237.49 35.56)
@@ -2629,6 +2747,16 @@
 			(type default)
 		)
 		(uuid "53f02f11-20af-48ee-aea2-a6fcb38df9e1")
+	)
+	(bus
+		(pts
+			(xy 92.71 151.13) (xy 92.71 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f273b8-37c4-4c38-af35-d847162b19ec")
 	)
 	(bus
 		(pts
@@ -3230,6 +3358,16 @@
 		)
 		(uuid "b2c50f5a-b522-4328-884b-584f0c7dcc2e")
 	)
+	(bus
+		(pts
+			(xy 92.71 146.05) (xy 92.71 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4425927-8a74-4a37-9b46-c1d479448b02")
+	)
 	(wire
 		(pts
 			(xy 231.14 123.19) (xy 241.3 123.19)
@@ -3239,6 +3377,16 @@
 			(type default)
 		)
 		(uuid "b836265b-53c5-45c5-87f4-2faf704bae7d")
+	)
+	(wire
+		(pts
+			(xy 95.25 151.13) (xy 97.79 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83b54d7-7627-4678-b329-b46299bfb404")
 	)
 	(wire
 		(pts
@@ -3602,6 +3750,16 @@
 	)
 	(bus
 		(pts
+			(xy 92.71 144.78) (xy 92.71 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e543bfaf-cdf2-41b0-a73d-f92e10d77938")
+	)
+	(bus
+		(pts
 			(xy 49.53 40.64) (xy 49.53 43.18)
 		)
 		(stroke
@@ -3609,6 +3767,16 @@
 			(type default)
 		)
 		(uuid "e5b52140-e4f5-49ec-9dc2-7d7599db3596")
+	)
+	(bus
+		(pts
+			(xy 92.71 148.59) (xy 92.71 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d2dbcd-f6ba-4a7f-8d2e-fcfe204729fb")
 	)
 	(wire
 		(pts
@@ -3729,6 +3897,16 @@
 			(type default)
 		)
 		(uuid "f1f418e4-7593-41ae-b2b5-a2e449300748")
+	)
+	(wire
+		(pts
+			(xy 82.55 153.67) (xy 90.17 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23cc491-8ece-41d6-8111-30eabc1322a1")
 	)
 	(wire
 		(pts
@@ -4042,6 +4220,17 @@
 		)
 		(uuid "3599a873-f4b1-4654-9d4c-c274240d500c")
 	)
+	(label "GPIO_[91..96]"
+		(at 92.71 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3826c7e8-1b49-4415-a2c9-41923321fdff")
+	)
 	(label "GPIO_29"
 		(at 91.44 30.48 0)
 		(fields_autoplaced yes)
@@ -4074,6 +4263,16 @@
 			(justify left bottom)
 		)
 		(uuid "409cbb4e-1b13-4ff2-8e6d-cd4dfadf6e0a")
+	)
+	(label "GPIO_91"
+		(at 97.79 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41c89c05-2ab7-46f1-82a1-86d973dd6a7e")
 	)
 	(label "GPIO_33"
 		(at 91.44 40.64 0)
@@ -4174,6 +4373,16 @@
 		)
 		(uuid "4fa43546-5683-4e72-ad03-72b6acff04bb")
 	)
+	(label "GPIO_93"
+		(at 97.79 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51d20fde-84f5-41c5-80b2-d7a1875f21cd")
+	)
 	(label "GPIO_25"
 		(at 35.56 106.68 0)
 		(fields_autoplaced yes)
@@ -4228,6 +4437,16 @@
 			(justify left bottom)
 		)
 		(uuid "5db69394-eed0-400d-8aa4-5e38675d5ad1")
+	)
+	(label "GPIO_94"
+		(at 82.55 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e825d99-02e0-4e58-8c08-0659542188f6")
 	)
 	(label "GPIO_39"
 		(at 91.44 66.04 0)
@@ -4316,6 +4535,16 @@
 			(justify left bottom)
 		)
 		(uuid "8b02553d-f9c0-4b9c-879d-015676ee110d")
+	)
+	(label "GPIO_96"
+		(at 82.55 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9032305b-b731-4075-9501-e10344030b2d")
 	)
 	(label "GPIO_65"
 		(at 148.59 63.5 0)
@@ -4448,6 +4677,16 @@
 			(justify left bottom)
 		)
 		(uuid "a7b89335-5f88-4bee-beb3-0f704fe2793c")
+	)
+	(label "GPIO_92"
+		(at 97.79 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8322f08-434a-48d4-a1ec-d9ae24b86ab6")
 	)
 	(label "GPIO_[46..54]"
 		(at 105.41 87.63 0)
@@ -4911,6 +5150,16 @@
 		)
 		(uuid "f58f1aac-0dde-44de-b83b-e7f518616e58")
 	)
+	(label "GPIO_95"
+		(at 82.55 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f62596ec-5eef-4c87-aeb0-92593d93b671")
+	)
 	(label "GPIO_80"
 		(at 148.59 109.22 0)
 		(fields_autoplaced yes)
@@ -4982,7 +5231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 229.87 68.072 90)
 			(effects
 				(font
@@ -5465,7 +5714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 227.33 121.412 90)
 			(effects
 				(font
@@ -5533,7 +5782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 222.25 95.758 90)
 			(effects
 				(font
@@ -6201,7 +6450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 228.6 94.742 90)
 			(effects
 				(font
@@ -6269,7 +6518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 220.98 122.428 90)
 			(effects
 				(font
@@ -6477,7 +6726,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.52 69.088 90)
 			(effects
 				(font

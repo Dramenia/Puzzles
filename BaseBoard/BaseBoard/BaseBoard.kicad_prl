@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -61,7 +61,6 @@
       34,
       35,
       36,
-      37,
       39,
       40
     ],
@@ -75,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "puzzle1.kicad_prl",
+    "filename": "BaseBoard.kicad_prl",
     "version": 3
   },
   "project": {

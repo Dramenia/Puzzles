@@ -4266,6 +4266,7 @@
 	)
 	(label "GPIO_91"
 		(at 97.79 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4375,6 +4376,7 @@
 	)
 	(label "GPIO_93"
 		(at 97.79 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4440,6 +4442,7 @@
 	)
 	(label "GPIO_94"
 		(at 82.55 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4538,6 +4541,7 @@
 	)
 	(label "GPIO_96"
 		(at 82.55 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4680,6 +4684,7 @@
 	)
 	(label "GPIO_92"
 		(at 97.79 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5152,6 +5157,7 @@
 	)
 	(label "GPIO_95"
 		(at 82.55 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

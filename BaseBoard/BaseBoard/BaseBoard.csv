@@ -1,0 +1,16 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J3";"JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical";1;"Conn_01x04_Pin";;;
+2;"R3,R4";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"10k";;;
+3;"U2";"SOT-23-6";1;"LMR51430";;;
+4;"C2";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"2.2uF";;;
+5;"Q1,Q2";"TO-92_Inline";2;"2N3904";;;
+6;"C3";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"44uF";;;
+7;"C1";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"0.1 uF";;;
+8;"C4";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"100nF";;;
+9;"J1,J5";"TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal";2;"Screw_Terminal_01x02";;;
+10;"J4";"PinHeader_1x10_P2.54mm_Vertical";1;"Conn_01x10_Pin";;;
+11;"L1";"L_Bourns_SDR0604";1;"6.8 uH";;;
+12;"R2";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"13.7k";;;
+13;"J2";"PinHeader_1x06_P2.54mm_Vertical";1;"Conn_01x06_Pin";;;
+14;"R1";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"100k";;;
+15;"U1";"WT32-ETH01-M";1;"WT32-ETH01";;;
